@@ -26,7 +26,7 @@ const Hero = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInRight}
-          className="order-2 lg:order-1 flex flex-col items-start text-left"
+          className="flex flex-col items-start text-left"
         >
           {/* Badge */}
           <div className="flex items-center gap-2 bg-blue-50 text-blue-600 px-4 py-2 rounded-full mb-6">
@@ -55,7 +55,7 @@ const Hero = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInLeft}
-          className="order-1 lg:order-2 relative flex justify-center items-center"
+          className=" relative flex justify-center items-center"
         >
           {/* Blue Arch Shape Background */}
           <div className="relative w-70 h-50 sm:w-87.5 sm:h-100 md:w-100 md:h-145 bg-blue-600 rounded-t-full shadow-2xl">

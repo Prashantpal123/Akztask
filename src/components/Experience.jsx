@@ -74,7 +74,7 @@ const Experience = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="text-center  sm:mb-16"
+          className="text-center mb-6  sm:mb-16"
         >
           <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-600 px-4 py-1.5 rounded-full text-xs font-bold mb-4 border border-blue-100">
              <span className="bg-blue-600 text-white rounded-full p-0.5"><Info size={10} /></span> Company Experience

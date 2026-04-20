@@ -82,7 +82,7 @@ const AboutUs = () => {
           </p>
 
           {/* Animated Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 border-b border-gray-100 pb-12">
+          <div className="grid grid-cols-2 sm:grid-cols-4 items-center gap-8 border-b border-gray-100 pb-12">
             {[
               { val: "10k+", label: "Projects" },
               { val: "15k", label: "Clients" },
@@ -94,7 +94,7 @@ const AboutUs = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.5 + (i * 0.1) }}
-                className="flex flex-col"
+                className="flex flex-col items-center"
               >
                 <h4 className="text-3xl font-black text-gray-900">{stat.val}</h4>
                 <p className="text-gray-400 text-[10px] sm:text-xs mt-1 font-bold uppercase tracking-widest">{stat.label}</p>
@@ -103,16 +103,16 @@ const AboutUs = () => {
           </div>
 
           {/* Bottom Action Area */}
-          <div className="flex flex-wrap items-center gap-8">
+          <div className="flex flex-wrap justify-between items-center gap-4 sm:gap-8">
             {/* Avatar Stack */}
-            <div className="flex -space-x-4">
+            <div className="flex items-center -space-x-4">
               {[1, 2, 3, 4].map((i) => (
                 <motion.img 
                   key={i}
                   initial={{ x: -20, opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ delay: 0.8 + (i * 0.1) }}
-                  className="w-14 h-14 rounded-full border-4 border-white object-cover shadow-sm"
+                  className="w-10 h-10 sm:w-14 sm:h-14 rounded-full border-4 border-white object-cover shadow-sm"
                   src={`https://i.pravatar.cc/150?u=${i+25}`}
                   alt="User"
                 />
@@ -123,7 +123,7 @@ const AboutUs = () => {
             <div className="flex items-center gap-4 group cursor-pointer">
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-400 rounded-full animate-ping opacity-20 group-hover:hidden"></div>
-                <div className="w-14 h-14 rounded-full border-2 border-gray-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:border-blue-600 transition-all duration-500 shadow-md">
+                <div className="w-10 h-10 sm:w-14 sm:h-14  rounded-full border-2 border-gray-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:border-blue-600 transition-all duration-500 shadow-md">
                   <Play size={20} className="text-gray-900 group-hover:text-white fill-current translate-x-0.5" />
                 </div>
               </div>
