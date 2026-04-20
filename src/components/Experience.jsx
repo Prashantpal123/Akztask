@@ -40,17 +40,17 @@ const StatItem = ({ icon: Icon, value, label, hasBorder, index }) => (
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ duration: 0.5, delay: index * 0.1 }}
-    className={`flex items-center justify-center gap-4 py-8 md:py-10 ${hasBorder ? 'lg:border-r border-gray-100' : ''}`}
+    className={`flex flex-col  sm:flex-row items-center justify-center gap-4 py-8 md:py-10 ${hasBorder ? 'lg:border-r border-gray-100' : ''}`}
   >
     <div className="text-blue-600 bg-blue-50 p-3 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
       <Icon size={40} strokeWidth={1.5} />
     </div>
     
-    <div className="flex flex-col items-start leading-tight">
+    <div className="flex flex-col items-center sm:items-start leading-tight">
       <div className="text-2xl sm:text-4xl font-black text-blue-600">
         <Counter value={value} />
       </div>
-      <span className="text-gray-500 text-[10px] font-bold uppercase tracking-[0.15em] w-24">
+      <span className="text-gray-500 text-[10px] text-center font-bold uppercase tracking-[0.15em] w-24">
         {label}
       </span>
     </div>
@@ -74,7 +74,7 @@ const Experience = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center  sm:mb-16"
         >
           <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-600 px-4 py-1.5 rounded-full text-xs font-bold mb-4 border border-blue-100">
              <span className="bg-blue-600 text-white rounded-full p-0.5"><Info size={10} /></span> Company Experience
@@ -86,7 +86,7 @@ const Experience = () => {
         </motion.div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center bg-[#F9FAFB] rounded-[3rem] p-4 sm:p-10 shadow-sm border border-gray-50">
+        <div className="grid grid-cols-2 lg:grid-cols-4 items-center bg-[#F9FAFB] rounded-[3rem] py-0 p-4 sm:p-10 shadow-sm border border-gray-50">
           {stats.map((stat, index) => (
             <StatItem 
               key={index} 
