@@ -1,16 +1,23 @@
-# React + Vite
+# 🚀 AkzIt - Modern IT Services & Software Development Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AKz it solution** ek premium, fully responsive, aur high-performance web platform hai jo startups aur enterprises ke liye software development aur IT services showcase karne ke liye banaya gaya hai.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **⚡ High Performance:** React.js aur Tailwind CSS ka upyog karke fast loading speed ensure ki gayi hai.
+-   **📱 Fully Responsive:** Har screen size (Mobile, Tablet, Desktop) ke liye optimized layout.
+-   **🎭 Smooth Animations:** Framer Motion ka use karke premium scroll aur entrance animations.
+-   **🛠 Service Modules:** Web, App, aur Software development ke liye detailed cards aur horizontal scrolling (mobile par).
+-   **📈 Dynamic Counters:** Experience aur Success stats ke liye animated counting numbers.
+-   **🧭 Smart Navigation:** Sticky navbar jisme active tab tracking aur mobile overlay menu feature hai.
+-   **🖼 Modern UI/UX:** Clean grey-scale background, rounded corners (2.5rem), aur professional blue-theme branding.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Frontend:** React.js
+-   **Styling:** Tailwind CSS
+-   **Icons:** Lucide-React
+-   **Animations:** Framer Motion
+-   **Design Pattern:** Component-based architecture
