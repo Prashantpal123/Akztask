@@ -2,7 +2,7 @@
 
 **AKz it solution** ek premium, fully responsive, aur high-performance web platform hai jo startups aur enterprises ke liye software development aur IT services showcase karne ke liye banaya gaya hai.
 
-![Banner](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200)
+
 
 ## ✨ Key Features
 
